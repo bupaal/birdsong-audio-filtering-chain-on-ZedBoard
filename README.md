@@ -10,7 +10,7 @@ The goal of this project is to implement and test a birdsong playback chain usin
 | File | Description |
 |------|-------------|
 | `Procedure.pdf` | Step-by-step documentation for setup & execution |
-| `Project.zip` | Source files & setup package for ZedBoard |
+| `Zedboard-DMA-2016.4-1.zip` | Source files & setup package for ZedBoard |
 | `birdsong.wav` | Example input audio |
 | `birdsong.hex` | Input audio samples (int16 HEX format) |
 | `coeffs.hex` | FIR filter coefficients (Q15, HEX format) |
@@ -31,7 +31,7 @@ The goal of this project is to implement and test a birdsong playback chain usin
 
 ## ▶️ Setup & Usage
 1. Refer to `Procedure.pdf` for detailed step-by-step setup instructions.  
-2. Load the project files from `Project.zip` into your Xilinx Vivado/SDK environment.  
+2. Load the project files from `Zedboard-DMA-2016.4-1.zip` into your Xilinx Vivado/SDK environment.  
 3. Connect the ZedBoard with audio input/output peripherals.  
 4. Run the design and test with `birdsong_out.wav`.  
 
